@@ -91,7 +91,7 @@ Ensure each folder contains images of the respective class for training, validat
 To train the VGG-16 model on your dataset:
 1. Run the following command:
    ```bash
-   python herb_purity_checker.py
+   python main.py
    ```
 2. Choose option `1` (Train the Model) in the menu.
 3. Specify the batch size and number of epochs when prompted (default: 32 and 10).  
@@ -103,7 +103,7 @@ To train the VGG-16 model on your dataset:
 To evaluate the model's accuracy on the test dataset:
 1. Run the script:
    ```bash
-   python herb_purity_checker.py
+   python main.py
    ```
 2. Choose option `2` (Test the Model).
 
@@ -113,7 +113,7 @@ To evaluate the model's accuracy on the test dataset:
 To classify herbs in real-time using a camera:
 1. Run the real-time checker:
    ```bash
-   python real_time_herb_purity_checker.py
+   python main.py
    ```
 2. The system will display predictions on the video feed.  
 3. Press `v` to visualize predictions in a dashboard.  
